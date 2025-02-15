@@ -119,8 +119,8 @@ body {
 }
 
 .card-item {
-    width: 290px;
-    height: 360px;
+    width: 250px;
+    height: 320px;
     background-color: white;
     border-radius: 5px;
     padding: 15px;
@@ -155,13 +155,14 @@ body {
 /* Lastest posts */
 .posts {
     display: flex;
+    justify-content: space-between;
 }
 
 .post-item {
     width: 380px;
     height: 490px;
-    border: 1px solid red;
     border-radius: 5px;
+    background-color: #fff;
 }
 
 .post-item-head {
@@ -194,4 +195,46 @@ body {
 }
 .post-title {
     font-size: 20px;
+}
+
+.post-des{
+    color: #838383;
+}
+
+.post-item-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-react {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #838383;
+    font-size: 12px;
+}
+.post-react div {
+    margin: 0px 6px;
+}
+
+.post-item-footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.feedbacks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-item {
+    width: 382px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
 }
