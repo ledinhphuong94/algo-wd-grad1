@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(217, 217, 217);
+}
+
+.nav{
+    height:40px;
+    display:flex;
+    justify-content: space-between;
+    background-color:#FFF;
+    align-items: center;
+    padding:10px 80px;
+}
+.logo{
+    width: 70px;
+    height:50px;
+}
+.menu-btns{
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-btns a{
+    text-decoration:none;
+    font-size:20px;
+    color:#000;
+}
+.item-btn-7{
+    background-color:orange;
+    padding:7px;
+    color:white !important;
+    display: flex;
+    align-items: center;
+    border-radius:4px;
+    align-items: space-between;
+}
+.introduction{
+    padding:20px 80px;
+    display:flex;
+    justify-content: space-between;
+}
+.intro-item{
+    width:45%;
+}
+.intro-l-1{
+    font-size:60px;
+    color:#121212;
+}
+.intro-l-2{
+    font-size:20px;
+    color:#838383;
+    margin:40px 0px;
+}
+.intro-l-3{
+    width:103px;
+    height:40px;
+    border-radius:5px;
+    background-color:#FF8F52;
+    font-size:18px;
+    color:#FFFFFF;
+   border:none;
+}
+.intro-right div{
+    display: flex;
+    justify-content: flex-end;
+}
+.intro-right img {
+    width:192px;
+    height:192px;
+    border-radius:10px;
+    margin:3px;
+}
+
+.common h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #000000;
+}
+
+.sec-title {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.sec-title hr {
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid red;
+}
+
+.sec-title h2{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(217, 217, 217);
+}
+
+.common {
+    margin: 50px 80px;
+}
+
+.best-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card-item {
+    width: 290px;
+    height: 360px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card-item .main-img {
+    width: 100%;
+}
+
+.card-item-title {
+    font-size: 22px;
+}
+
+.card-item-bot {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.card-item-bot div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item-bot a {
+    color: #FF8F52;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+/* Lastest posts */
+.posts {
+    display: flex;
+}
+
+.post-item {
+    width: 380px;
+    height: 490px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.post-item-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.post-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.post-avatar span {
+    margin-left: 5px;
+}
+
+.post-date {
+    font-size: 14px;
+    color: #838383;
+}
+
+.post-img img {
+    width: 100%;
+}
+
+.post-info {
+    padding: 10px;
+}
+.post-title {
+    font-size: 20px;
+}
